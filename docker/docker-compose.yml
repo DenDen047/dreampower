@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  dreampower:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: ../
+        target: /work
+    working_dir: /work
+    command: python3 main.py run -i data/ -o data/ --auto-resize -s 0:5 -a data --cpu --disable-persistent-gan
