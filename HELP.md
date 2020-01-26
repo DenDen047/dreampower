@@ -63,7 +63,7 @@ optional arguments:
                         Default : ./checkpoints
   --n-cores N_CORES     Number of cpu cores to use. Default : 4
   --disable-persistent-gan
-                        Disable persistent in memory gan model.Reduce memory
+                        Disable persistent in memory gan model. Reduce memory
                         usage but increase computation time on multiple
                         processing.
   -j JSON_ARGS, --json-args JSON_ARGS

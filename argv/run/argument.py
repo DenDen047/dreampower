@@ -87,7 +87,7 @@ def arg_gan_persistent(parser):
     parser.add_argument(
         "--disable-persistent-gan",
         action="store_true",
-        help="Disable persistent in memory gan model."
+        help="Disable persistent in memory gan model. "
              "Reduce memory usage but increase computation time on multiple processing."
     )
 
