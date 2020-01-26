@@ -127,6 +127,16 @@ This will print out help on the parameters the algorithm accepts.
 
 ---
 
+# Docker
+
+You can also run that on a Docker container.
+
+```sh
+$ ./run.sh
+```
+
+---
+
 # How does DreamPower work?
 
 DreamPower uses an interesting method to solve a typical AI problem, so it could be useful for researchers and developers working in other fields such as *fashion*, *cinema* and *visual effects*.
