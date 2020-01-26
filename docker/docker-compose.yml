@@ -9,5 +9,8 @@ services:
       - type: bind
         source: ../
         target: /work
+      - type: bind
+        source: ~/Downloads/dreampower
+        target: /data
     working_dir: /work
-    command: python3 main.py run -i data/ -o data/ --auto-resize -s 0:5 -a data --cpu --disable-persistent-gan
+    command: python3 main.py run -i /data -o /data --auto-resize -s 0:5 --cpu --disable-persistent-gan
